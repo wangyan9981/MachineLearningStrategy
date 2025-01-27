@@ -1,0 +1,13 @@
+model:
+  n_estimators: 100
+  max_depth: 5
+  learning_rate: 0.1
+
+backtesting:
+  train_window: 252  # 1 year of daily data
+  test_window: 63    # 3 months
+  target_return: 0.15
+
+risk:
+  max_capital_risk: 0.02
+  volatility_window: 30
